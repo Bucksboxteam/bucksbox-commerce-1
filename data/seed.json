@@ -5,14 +5,11 @@
       "usd"
     ]
   },
-  "users": [
-    {
-      "email": "admin@medusa-test.com",
-      "password": "supersecret"
-    }
-  ],
-  "regions": [
-    {
+  "users": [{
+    "email": "admin@medusa-test.com",
+    "password": "supersecret"
+  }],
+  "regions": [{
       "id": "test-region-eu",
       "name": "EU",
       "currency_code": "eur",
@@ -30,7 +27,8 @@
         "se",
         "fr",
         "es",
-        "it"
+        "it",
+        "in"
       ]
     },
     {
@@ -46,12 +44,12 @@
       ],
       "countries": [
         "us",
-        "ca"
+        "ca",
+        "in"
       ]
     }
   ],
-  "shipping_options": [
-    {
+  "shipping_options": [{
       "name": "PostFake Standard",
       "region_id": "test-region-eu",
       "provider_id": "manual",
@@ -136,14 +134,11 @@
       "amount": 0
     }
   ],
-  "products": [
-    {
+  "products": [{
       "title": "Medusa T-Shirt",
-      "categories": [
-        {
-          "id": "pcat_shirts"
-        }
-      ],
+      "categories": [{
+        "id": "pcat_shirts"
+      }],
       "subtitle": null,
       "description": "Reimagine the feeling of a classic T-shirt. With our cotton T-shirts, everyday essentials no longer have to be ordinary.",
       "handle": "t-shirt",
@@ -155,8 +150,7 @@
         "https://medusa-public-images.s3.eu-west-1.amazonaws.com/tee-white-front.png",
         "https://medusa-public-images.s3.eu-west-1.amazonaws.com/tee-white-back.png"
       ],
-      "options": [
-        {
+      "options": [{
           "title": "Size",
           "values": [
             "S",
@@ -173,11 +167,9 @@
           ]
         }
       ],
-      "variants": [
-        {
+      "variants": [{
           "title": "S / Black",
-          "prices": [
-            {
+          "prices": [{
               "currency_code": "eur",
               "amount": 1950
             },
@@ -186,8 +178,7 @@
               "amount": 2200
             }
           ],
-          "options": [
-            {
+          "options": [{
               "value": "S"
             },
             {
@@ -199,8 +190,7 @@
         },
         {
           "title": "S / White",
-          "prices": [
-            {
+          "prices": [{
               "currency_code": "eur",
               "amount": 1950
             },
@@ -209,8 +199,7 @@
               "amount": 2200
             }
           ],
-          "options": [
-            {
+          "options": [{
               "value": "S"
             },
             {
@@ -222,8 +211,7 @@
         },
         {
           "title": "M / Black",
-          "prices": [
-            {
+          "prices": [{
               "currency_code": "eur",
               "amount": 1950
             },
@@ -232,8 +220,7 @@
               "amount": 2200
             }
           ],
-          "options": [
-            {
+          "options": [{
               "value": "M"
             },
             {
@@ -245,8 +232,7 @@
         },
         {
           "title": "M / White",
-          "prices": [
-            {
+          "prices": [{
               "currency_code": "eur",
               "amount": 1950
             },
@@ -255,8 +241,7 @@
               "amount": 2200
             }
           ],
-          "options": [
-            {
+          "options": [{
               "value": "M"
             },
             {
@@ -268,8 +253,7 @@
         },
         {
           "title": "L / Black",
-          "prices": [
-            {
+          "prices": [{
               "currency_code": "eur",
               "amount": 1950
             },
@@ -278,8 +262,7 @@
               "amount": 2200
             }
           ],
-          "options": [
-            {
+          "options": [{
               "value": "L"
             },
             {
@@ -291,8 +274,7 @@
         },
         {
           "title": "L / White",
-          "prices": [
-            {
+          "prices": [{
               "currency_code": "eur",
               "amount": 1950
             },
@@ -301,8 +283,7 @@
               "amount": 2200
             }
           ],
-          "options": [
-            {
+          "options": [{
               "value": "L"
             },
             {
@@ -314,8 +295,7 @@
         },
         {
           "title": "XL / Black",
-          "prices": [
-            {
+          "prices": [{
               "currency_code": "eur",
               "amount": 1950
             },
@@ -324,8 +304,7 @@
               "amount": 2200
             }
           ],
-          "options": [
-            {
+          "options": [{
               "value": "XL"
             },
             {
@@ -337,8 +316,7 @@
         },
         {
           "title": "XL / White",
-          "prices": [
-            {
+          "prices": [{
               "currency_code": "eur",
               "amount": 1950
             },
@@ -347,8 +325,7 @@
               "amount": 2200
             }
           ],
-          "options": [
-            {
+          "options": [{
               "value": "XL"
             },
             {
@@ -362,11 +339,9 @@
     },
     {
       "title": "Medusa Sweatshirt",
-      "categories": [
-        {
-          "id": "pcat_shirts"
-        }
-      ],
+      "categories": [{
+        "id": "pcat_shirts"
+      }],
       "subtitle": null,
       "description": "Reimagine the feeling of a classic sweatshirt. With our cotton sweatshirt, everyday essentials no longer have to be ordinary.",
       "handle": "sweatshirt",
@@ -376,22 +351,18 @@
         "https://medusa-public-images.s3.eu-west-1.amazonaws.com/sweatshirt-vintage-front.png",
         "https://medusa-public-images.s3.eu-west-1.amazonaws.com/sweatshirt-vintage-back.png"
       ],
-      "options": [
-        {
-          "title": "Size",
-          "values": [
-            "S",
-            "M",
-            "L",
-            "XL"
-          ]
-        }
-      ],
-      "variants": [
-        {
+      "options": [{
+        "title": "Size",
+        "values": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ]
+      }],
+      "variants": [{
           "title": "S",
-          "prices": [
-            {
+          "prices": [{
               "currency_code": "eur",
               "amount": 2950
             },
@@ -400,18 +371,15 @@
               "amount": 3350
             }
           ],
-          "options": [
-            {
-              "value": "S"
-            }
-          ],
+          "options": [{
+            "value": "S"
+          }],
           "inventory_quantity": 100,
           "manage_inventory": true
         },
         {
           "title": "M",
-          "prices": [
-            {
+          "prices": [{
               "currency_code": "eur",
               "amount": 2950
             },
@@ -420,18 +388,15 @@
               "amount": 3350
             }
           ],
-          "options": [
-            {
-              "value": "M"
-            }
-          ],
+          "options": [{
+            "value": "M"
+          }],
           "inventory_quantity": 100,
           "manage_inventory": true
         },
         {
           "title": "L",
-          "prices": [
-            {
+          "prices": [{
               "currency_code": "eur",
               "amount": 2950
             },
@@ -440,18 +405,15 @@
               "amount": 3350
             }
           ],
-          "options": [
-            {
-              "value": "L"
-            }
-          ],
+          "options": [{
+            "value": "L"
+          }],
           "inventory_quantity": 100,
           "manage_inventory": true
         },
         {
           "title": "XL",
-          "prices": [
-            {
+          "prices": [{
               "currency_code": "eur",
               "amount": 2950
             },
@@ -460,11 +422,9 @@
               "amount": 3350
             }
           ],
-          "options": [
-            {
-              "value": "XL"
-            }
-          ],
+          "options": [{
+            "value": "XL"
+          }],
           "inventory_quantity": 100,
           "manage_inventory": true
         }
@@ -472,11 +432,9 @@
     },
     {
       "title": "Medusa Sweatpants",
-      "categories": [
-        {
-          "id": "pcat_pants"
-        }
-      ],
+      "categories": [{
+        "id": "pcat_pants"
+      }],
       "subtitle": null,
       "description": "Reimagine the feeling of classic sweatpants. With our cotton sweatpants, everyday essentials no longer have to be ordinary.",
       "handle": "sweatpants",
@@ -486,22 +444,18 @@
         "https://medusa-public-images.s3.eu-west-1.amazonaws.com/sweatpants-gray-front.png",
         "https://medusa-public-images.s3.eu-west-1.amazonaws.com/sweatpants-gray-back.png"
       ],
-      "options": [
-        {
-          "title": "Size",
-          "values": [
-            "S",
-            "M",
-            "L",
-            "XL"
-          ]
-        }
-      ],
-      "variants": [
-        {
+      "options": [{
+        "title": "Size",
+        "values": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ]
+      }],
+      "variants": [{
           "title": "S",
-          "prices": [
-            {
+          "prices": [{
               "currency_code": "eur",
               "amount": 2950
             },
@@ -510,18 +464,15 @@
               "amount": 3350
             }
           ],
-          "options": [
-            {
-              "value": "S"
-            }
-          ],
+          "options": [{
+            "value": "S"
+          }],
           "inventory_quantity": 100,
           "manage_inventory": true
         },
         {
           "title": "M",
-          "prices": [
-            {
+          "prices": [{
               "currency_code": "eur",
               "amount": 2950
             },
@@ -530,18 +481,15 @@
               "amount": 3350
             }
           ],
-          "options": [
-            {
-              "value": "M"
-            }
-          ],
+          "options": [{
+            "value": "M"
+          }],
           "inventory_quantity": 100,
           "manage_inventory": true
         },
         {
           "title": "L",
-          "prices": [
-            {
+          "prices": [{
               "currency_code": "eur",
               "amount": 2950
             },
@@ -550,18 +498,15 @@
               "amount": 3350
             }
           ],
-          "options": [
-            {
-              "value": "L"
-            }
-          ],
+          "options": [{
+            "value": "L"
+          }],
           "inventory_quantity": 100,
           "manage_inventory": true
         },
         {
           "title": "XL",
-          "prices": [
-            {
+          "prices": [{
               "currency_code": "eur",
               "amount": 2950
             },
@@ -570,11 +515,9 @@
               "amount": 3350
             }
           ],
-          "options": [
-            {
-              "value": "XL"
-            }
-          ],
+          "options": [{
+            "value": "XL"
+          }],
           "inventory_quantity": 100,
           "manage_inventory": true
         }
@@ -582,11 +525,9 @@
     },
     {
       "title": "Medusa Shorts",
-      "categories": [
-        {
-          "id": "pcat_merch"
-        }
-      ],
+      "categories": [{
+        "id": "pcat_merch"
+      }],
       "subtitle": null,
       "description": "Reimagine the feeling of classic shorts. With our cotton shorts, everyday essentials no longer have to be ordinary.",
       "handle": "shorts",
@@ -596,22 +537,18 @@
         "https://medusa-public-images.s3.eu-west-1.amazonaws.com/shorts-vintage-front.png",
         "https://medusa-public-images.s3.eu-west-1.amazonaws.com/shorts-vintage-back.png"
       ],
-      "options": [
-        {
-          "title": "Size",
-          "values": [
-            "S",
-            "M",
-            "L",
-            "XL"
-          ]
-        }
-      ],
-      "variants": [
-        {
+      "options": [{
+        "title": "Size",
+        "values": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ]
+      }],
+      "variants": [{
           "title": "S",
-          "prices": [
-            {
+          "prices": [{
               "currency_code": "eur",
               "amount": 2500
             },
@@ -620,18 +557,15 @@
               "amount": 2850
             }
           ],
-          "options": [
-            {
-              "value": "S"
-            }
-          ],
+          "options": [{
+            "value": "S"
+          }],
           "inventory_quantity": 100,
           "manage_inventory": true
         },
         {
           "title": "M",
-          "prices": [
-            {
+          "prices": [{
               "currency_code": "eur",
               "amount": 2500
             },
@@ -640,18 +574,15 @@
               "amount": 2850
             }
           ],
-          "options": [
-            {
-              "value": "M"
-            }
-          ],
+          "options": [{
+            "value": "M"
+          }],
           "inventory_quantity": 100,
           "manage_inventory": true
         },
         {
           "title": "L",
-          "prices": [
-            {
+          "prices": [{
               "currency_code": "eur",
               "amount": 2500
             },
@@ -660,18 +591,15 @@
               "amount": 2850
             }
           ],
-          "options": [
-            {
-              "value": "L"
-            }
-          ],
+          "options": [{
+            "value": "L"
+          }],
           "inventory_quantity": 100,
           "manage_inventory": true
         },
         {
           "title": "XL",
-          "prices": [
-            {
+          "prices": [{
               "currency_code": "eur",
               "amount": 2500
             },
@@ -680,11 +608,9 @@
               "amount": 2850
             }
           ],
-          "options": [
-            {
-              "value": "XL"
-            }
-          ],
+          "options": [{
+            "value": "XL"
+          }],
           "inventory_quantity": 100,
           "manage_inventory": true
         }
@@ -692,8 +618,7 @@
     },
     {
       "title": "Medusa Hoodie",
-      "categories": [
-        {
+      "categories": [{
           "id": "pcat_merch"
         },
         {
@@ -709,22 +634,18 @@
         "https://medusa-public-images.s3.eu-west-1.amazonaws.com/black_hoodie_front.png",
         "https://medusa-public-images.s3.eu-west-1.amazonaws.com/black_hoodie_back.png"
       ],
-      "options": [
-        {
-          "title": "Size",
-          "values": [
-            "S",
-            "M",
-            "L",
-            "XL"
-          ]
-        }
-      ],
-      "variants": [
-        {
+      "options": [{
+        "title": "Size",
+        "values": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ]
+      }],
+      "variants": [{
           "title": "S",
-          "prices": [
-            {
+          "prices": [{
               "currency_code": "eur",
               "amount": 3650
             },
@@ -733,18 +654,15 @@
               "amount": 4150
             }
           ],
-          "options": [
-            {
-              "value": "S"
-            }
-          ],
+          "options": [{
+            "value": "S"
+          }],
           "inventory_quantity": 100,
           "manage_inventory": true
         },
         {
           "title": "M",
-          "prices": [
-            {
+          "prices": [{
               "currency_code": "eur",
               "amount": 3650
             },
@@ -753,18 +671,15 @@
               "amount": 4150
             }
           ],
-          "options": [
-            {
-              "value": "M"
-            }
-          ],
+          "options": [{
+            "value": "M"
+          }],
           "inventory_quantity": 100,
           "manage_inventory": true
         },
         {
           "title": "L",
-          "prices": [
-            {
+          "prices": [{
               "currency_code": "eur",
               "amount": 3650
             },
@@ -773,18 +688,15 @@
               "amount": 4150
             }
           ],
-          "options": [
-            {
-              "value": "L"
-            }
-          ],
+          "options": [{
+            "value": "L"
+          }],
           "inventory_quantity": 100,
           "manage_inventory": true
         },
         {
           "title": "XL",
-          "prices": [
-            {
+          "prices": [{
               "currency_code": "eur",
               "amount": 3650
             },
@@ -793,11 +705,9 @@
               "amount": 4150
             }
           ],
-          "options": [
-            {
-              "value": "XL"
-            }
-          ],
+          "options": [{
+            "value": "XL"
+          }],
           "inventory_quantity": 100,
           "manage_inventory": true
         }
@@ -805,8 +715,7 @@
     },
     {
       "title": "Medusa Longsleeve",
-      "categories": [
-        {
+      "categories": [{
           "id": "pcat_shirts"
         },
         {
@@ -822,22 +731,18 @@
         "https://medusa-public-images.s3.eu-west-1.amazonaws.com/ls-black-front.png",
         "https://medusa-public-images.s3.eu-west-1.amazonaws.com/ls-black-back.png"
       ],
-      "options": [
-        {
-          "title": "Size",
-          "values": [
-            "S",
-            "M",
-            "L",
-            "XL"
-          ]
-        }
-      ],
-      "variants": [
-        {
+      "options": [{
+        "title": "Size",
+        "values": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ]
+      }],
+      "variants": [{
           "title": "S",
-          "prices": [
-            {
+          "prices": [{
               "currency_code": "eur",
               "amount": 3650
             },
@@ -846,18 +751,15 @@
               "amount": 4150
             }
           ],
-          "options": [
-            {
-              "value": "S"
-            }
-          ],
+          "options": [{
+            "value": "S"
+          }],
           "inventory_quantity": 100,
           "manage_inventory": true
         },
         {
           "title": "M",
-          "prices": [
-            {
+          "prices": [{
               "currency_code": "eur",
               "amount": 3650
             },
@@ -866,18 +768,15 @@
               "amount": 4150
             }
           ],
-          "options": [
-            {
-              "value": "M"
-            }
-          ],
+          "options": [{
+            "value": "M"
+          }],
           "inventory_quantity": 100,
           "manage_inventory": true
         },
         {
           "title": "L",
-          "prices": [
-            {
+          "prices": [{
               "currency_code": "eur",
               "amount": 3650
             },
@@ -886,18 +785,15 @@
               "amount": 4150
             }
           ],
-          "options": [
-            {
-              "value": "L"
-            }
-          ],
+          "options": [{
+            "value": "L"
+          }],
           "inventory_quantity": 100,
           "manage_inventory": true
         },
         {
           "title": "XL",
-          "prices": [
-            {
+          "prices": [{
               "currency_code": "eur",
               "amount": 3650
             },
@@ -906,11 +802,9 @@
               "amount": 4150
             }
           ],
-          "options": [
-            {
-              "value": "XL"
-            }
-          ],
+          "options": [{
+            "value": "XL"
+          }],
           "inventory_quantity": 100,
           "manage_inventory": true
         }
@@ -918,8 +812,7 @@
     },
     {
       "title": "Medusa Coffee Mug",
-      "categories": [
-        {
+      "categories": [{
           "id": "pcat_merch"
         },
         {
@@ -934,40 +827,32 @@
       "images": [
         "https://medusa-public-images.s3.eu-west-1.amazonaws.com/coffee-mug.png"
       ],
-      "options": [
-        {
-          "title": "Size",
-          "values": [
-            "One Size"
-          ]
-        }
-      ],
-      "variants": [
-        {
-          "title": "One Size",
-          "prices": [
-            {
-              "currency_code": "eur",
-              "amount": 1000
-            },
-            {
-              "currency_code": "usd",
-              "amount": 1200
-            }
-          ],
-          "options": [
-            {
-              "value": "One Size"
-            }
-          ],
-          "inventory_quantity": 100,
-          "manage_inventory": true
-        }
-      ]
+      "options": [{
+        "title": "Size",
+        "values": [
+          "One Size"
+        ]
+      }],
+      "variants": [{
+        "title": "One Size",
+        "prices": [{
+            "currency_code": "eur",
+            "amount": 1000
+          },
+          {
+            "currency_code": "usd",
+            "amount": 1200
+          }
+        ],
+        "options": [{
+          "value": "One Size"
+        }],
+        "inventory_quantity": 100,
+        "manage_inventory": true
+      }]
     }
   ],
-  "categories": [
-    {
+  "categories": [{
       "id": "pcat_pants",
       "name": "Pants",
       "rank": 0,
